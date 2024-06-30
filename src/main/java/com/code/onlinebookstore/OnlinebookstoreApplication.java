@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore;
+package com.code.onlinebookstore;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

@@ -1,17 +1,18 @@
-package com.impetus.onlinebookstore.serviceimp;
+package com.code.onlinebookstore.serviceimp;
 
-import com.impetus.onlinebookstore.dto.UserDto;
-import com.impetus.onlinebookstore.entity.User;
-import com.impetus.onlinebookstore.exception.InvalidPasswordException;
-import com.impetus.onlinebookstore.exception.InvalidUserNameException;
-import com.impetus.onlinebookstore.exception.NoUserPresentException;
-import com.impetus.onlinebookstore.logger.Loggable;
-import com.impetus.onlinebookstore.repository.UserRepo;
-import com.impetus.onlinebookstore.services.AuthService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.code.onlinebookstore.dto.UserDto;
+import com.code.onlinebookstore.entity.User;
+import com.code.onlinebookstore.exception.InvalidPasswordException;
+import com.code.onlinebookstore.exception.InvalidUserNameException;
+import com.code.onlinebookstore.exception.NoUserPresentException;
+import com.code.onlinebookstore.logger.Loggable;
+import com.code.onlinebookstore.repository.UserRepo;
+import com.code.onlinebookstore.services.AuthService;
 
 import java.util.Date;
 import java.util.Objects;

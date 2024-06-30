@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.filter;
+package com.code.onlinebookstore.filter;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

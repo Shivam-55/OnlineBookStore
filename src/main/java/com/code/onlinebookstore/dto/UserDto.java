@@ -1,9 +1,10 @@
-package com.impetus.onlinebookstore.dto;
+package com.code.onlinebookstore.dto;
 
+import com.code.onlinebookstore.entity.Cart;
+import com.code.onlinebookstore.entity.Purchase;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.impetus.onlinebookstore.entity.Cart;
-import com.impetus.onlinebookstore.entity.Purchase;
+
 import java.util.Date;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.exception;
+package com.code.onlinebookstore.exception;
 
 public class NoBookSelectedException extends RuntimeException{
     public NoBookSelectedException(String s){

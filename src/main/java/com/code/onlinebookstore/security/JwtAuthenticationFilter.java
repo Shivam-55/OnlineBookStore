@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.security;
+package com.code.onlinebookstore.security;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;

@@ -1,9 +1,9 @@
-package com.impetus.onlinebookstore.services;
-
-import com.impetus.onlinebookstore.dto.UserDto;
-import com.impetus.onlinebookstore.entity.User;
+package com.code.onlinebookstore.services;
 
 import java.util.Optional;
+
+import com.code.onlinebookstore.dto.UserDto;
+import com.code.onlinebookstore.entity.User;
 
 public interface AuthService {
     void userRegistration(UserDto userDto);

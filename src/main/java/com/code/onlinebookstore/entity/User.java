@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.entity;
+package com.code.onlinebookstore.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

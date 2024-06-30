@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.logger;
+package com.code.onlinebookstore.logger;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

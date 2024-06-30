@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.aspect;
+package com.code.onlinebookstore.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

@@ -1,12 +1,13 @@
-package com.impetus.onlinebookstore.serviceimp;
+package com.code.onlinebookstore.serviceimp;
 
-import com.impetus.onlinebookstore.entity.User;
-import com.impetus.onlinebookstore.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
+
+import com.code.onlinebookstore.entity.User;
+import com.code.onlinebookstore.repository.UserRepo;
 
 /**
  * Custom implementation of Spring Security's UserDetailsService interface.

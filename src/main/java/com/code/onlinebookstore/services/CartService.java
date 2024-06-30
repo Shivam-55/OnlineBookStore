@@ -1,14 +1,14 @@
-package com.impetus.onlinebookstore.services;
-
-import com.impetus.onlinebookstore.entity.Book;
-import com.impetus.onlinebookstore.entity.Cart;
-import com.impetus.onlinebookstore.entity.User;
-import com.impetus.onlinebookstore.exception.AlreadyBookPresentException;
-import com.impetus.onlinebookstore.exception.NoBookPresentException;
-import com.impetus.onlinebookstore.exception.NoUserPresentException;
+package com.code.onlinebookstore.services;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.code.onlinebookstore.entity.Book;
+import com.code.onlinebookstore.entity.Cart;
+import com.code.onlinebookstore.entity.User;
+import com.code.onlinebookstore.exception.AlreadyBookPresentException;
+import com.code.onlinebookstore.exception.NoBookPresentException;
+import com.code.onlinebookstore.exception.NoUserPresentException;
 
 public interface CartService {
     void addToCart(Long userId, Long bookId) ;

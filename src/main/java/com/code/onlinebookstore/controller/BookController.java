@@ -1,13 +1,14 @@
-package com.impetus.onlinebookstore.controller;
+package com.code.onlinebookstore.controller;
 
-import com.impetus.onlinebookstore.dto.BookDto;
-import com.impetus.onlinebookstore.entity.Book;
-import com.impetus.onlinebookstore.logger.Loggable;
-import com.impetus.onlinebookstore.services.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.code.onlinebookstore.dto.BookDto;
+import com.code.onlinebookstore.entity.Book;
+import com.code.onlinebookstore.logger.Loggable;
+import com.code.onlinebookstore.services.BookService;
 
 import java.util.List;
 

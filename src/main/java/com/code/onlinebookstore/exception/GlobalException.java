@@ -1,11 +1,13 @@
-package com.impetus.onlinebookstore.exception;
 
-import com.impetus.onlinebookstore.apiresponse.ApiResponse;
+package com.code.onlinebookstore.exception;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.code.onlinebookstore.apiresponse.ApiResponse;
 
 @RestControllerAdvice
 public class GlobalException {

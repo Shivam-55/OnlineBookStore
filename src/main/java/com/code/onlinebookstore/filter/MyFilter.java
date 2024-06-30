@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.filter;
+package com.code.onlinebookstore.filter;
 
 import javax.servlet.*;
 import java.io.IOException;

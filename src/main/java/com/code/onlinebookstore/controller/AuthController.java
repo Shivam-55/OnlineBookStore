@@ -1,11 +1,5 @@
-package com.impetus.onlinebookstore.controller;
+package com.code.onlinebookstore.controller;
 
-import com.impetus.onlinebookstore.dto.UserDto;
-import com.impetus.onlinebookstore.entity.JwtResponse.JwtResponse;
-import com.impetus.onlinebookstore.entity.User;
-import com.impetus.onlinebookstore.logger.Loggable;
-import com.impetus.onlinebookstore.security.JwtHelper;
-import com.impetus.onlinebookstore.services.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +9,13 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
+
+import com.code.onlinebookstore.dto.UserDto;
+import com.code.onlinebookstore.entity.User;
+import com.code.onlinebookstore.entity.JwtResponse.JwtResponse;
+import com.code.onlinebookstore.logger.Loggable;
+import com.code.onlinebookstore.security.JwtHelper;
+import com.code.onlinebookstore.services.AuthService;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.entity.JwtResponse;
+package com.code.onlinebookstore.entity.JwtResponse;
 
 public class JwtResponse {
     private String userName;

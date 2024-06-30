@@ -1,10 +1,10 @@
-package com.impetus.onlinebookstore.services;
-
-import com.impetus.onlinebookstore.dto.BookDto;
-import com.impetus.onlinebookstore.entity.Book;
+package com.code.onlinebookstore.services;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.code.onlinebookstore.dto.BookDto;
+import com.code.onlinebookstore.entity.Book;
 
 public interface BookService {
     List<Book> getAllBook();

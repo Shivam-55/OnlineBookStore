@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.exception;
+package com.code.onlinebookstore.exception;
 
 public class NoSuchBookAvailableException extends RuntimeException{
     public NoSuchBookAvailableException(String s){

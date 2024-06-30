@@ -1,19 +1,20 @@
-package com.impetus.onlinebookstore.serviceimp;
+package com.code.onlinebookstore.serviceimp;
 
-import com.impetus.onlinebookstore.entity.Book;
-import com.impetus.onlinebookstore.entity.Cart;
-import com.impetus.onlinebookstore.entity.Purchase;
-import com.impetus.onlinebookstore.entity.User;
-import com.impetus.onlinebookstore.exception.NoBookSelectedException;
-import com.impetus.onlinebookstore.exception.NoUserPresentException;
-import com.impetus.onlinebookstore.logger.Loggable;
-import com.impetus.onlinebookstore.repository.PurchaseRepo;
-import com.impetus.onlinebookstore.services.AuthService;
-import com.impetus.onlinebookstore.services.BookService;
-import com.impetus.onlinebookstore.services.CartService;
-import com.impetus.onlinebookstore.services.PurchaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.code.onlinebookstore.entity.Book;
+import com.code.onlinebookstore.entity.Cart;
+import com.code.onlinebookstore.entity.Purchase;
+import com.code.onlinebookstore.entity.User;
+import com.code.onlinebookstore.exception.NoBookSelectedException;
+import com.code.onlinebookstore.exception.NoUserPresentException;
+import com.code.onlinebookstore.logger.Loggable;
+import com.code.onlinebookstore.repository.PurchaseRepo;
+import com.code.onlinebookstore.services.AuthService;
+import com.code.onlinebookstore.services.BookService;
+import com.code.onlinebookstore.services.CartService;
+import com.code.onlinebookstore.services.PurchaseService;
 
 import java.util.ArrayList;
 import java.util.Date;

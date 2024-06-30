@@ -1,8 +1,9 @@
-package com.impetus.onlinebookstore.repository;
+package com.code.onlinebookstore.repository;
 
-import com.impetus.onlinebookstore.entity.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.code.onlinebookstore.entity.Book;
 
 import java.util.Optional;
 

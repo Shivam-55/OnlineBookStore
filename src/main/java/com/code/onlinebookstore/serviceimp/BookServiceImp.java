@@ -1,14 +1,15 @@
-package com.impetus.onlinebookstore.serviceimp;
+package com.code.onlinebookstore.serviceimp;
 
-import com.impetus.onlinebookstore.dto.BookDto;
-import com.impetus.onlinebookstore.entity.Book;
-import com.impetus.onlinebookstore.exception.NoSuchBookAvailableException;
-import com.impetus.onlinebookstore.logger.Loggable;
-import com.impetus.onlinebookstore.repository.BookRepo;
-import com.impetus.onlinebookstore.services.BookService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.code.onlinebookstore.dto.BookDto;
+import com.code.onlinebookstore.entity.Book;
+import com.code.onlinebookstore.exception.NoSuchBookAvailableException;
+import com.code.onlinebookstore.logger.Loggable;
+import com.code.onlinebookstore.repository.BookRepo;
+import com.code.onlinebookstore.services.BookService;
 
 import java.util.Date;
 import java.util.List;

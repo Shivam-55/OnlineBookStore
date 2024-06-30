@@ -1,4 +1,5 @@
-package com.impetus.onlinebookstore.apiresponse;
+
+package com.code.onlinebookstore.apiresponse;
 
 public class ApiResponse {
     private String message;

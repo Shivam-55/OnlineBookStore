@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.config;
+package com.code.onlinebookstore.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

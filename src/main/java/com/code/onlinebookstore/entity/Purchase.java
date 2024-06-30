@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.entity;
+package com.code.onlinebookstore.entity;
 
 import javax.persistence.*;
 import java.util.Date;

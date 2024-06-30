@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.security;
+package com.code.onlinebookstore.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

@@ -1,4 +1,4 @@
-package com.impetus.onlinebookstore.entity;
+package com.code.onlinebookstore.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

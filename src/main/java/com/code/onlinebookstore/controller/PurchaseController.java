@@ -1,11 +1,18 @@
-package com.impetus.onlinebookstore.controller;
 
-import com.impetus.onlinebookstore.entity.User;
-import com.impetus.onlinebookstore.services.PurchaseService;
+
+
+
+
+
+package com.code.onlinebookstore.controller;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.code.onlinebookstore.entity.User;
+import com.code.onlinebookstore.services.PurchaseService;
 
 /**
  * Controller class for handling purchase-related requests.
